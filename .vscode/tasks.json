@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Hospital DSA",
+      "type": "shell",
+      "command": "g++",
+      "args": ["-std=c++11", "-I", "src", "src/main.cpp", "-o", "HospitalDSA.exe"],
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
